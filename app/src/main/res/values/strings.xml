@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Muscore</string>
+    <string name="seek_to" />
+    <string name="player_error"/>
+    <string name="seek_to_hint" />
+</resources>
