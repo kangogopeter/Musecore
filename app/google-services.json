@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548829805248",
+    "firebase_url": "https://endless-coder-243711.firebaseio.com",
+    "project_id": "endless-coder-243711",
+    "storage_bucket": "endless-coder-243711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548829805248:android:aebebe358b5b107f",
+        "android_client_info": {
+          "package_name": "com.codestar.Musecore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548829805248-voce40krkf22kvj0id9ni05l8304pnlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaT5EwfdY_VaETWuF46qYkcqOxQwaGZQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548829805248-voce40krkf22kvj0id9ni05l8304pnlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -28,6 +28,7 @@
             android:id="@+id/seek_to_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:background="#79570056"
             android:text="@string/seek_to"
             android:textColor="@android:color/holo_blue_bright" />
 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN...."
+        android:textSize="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="423dp"
+        android:layout_height="723dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gray_50"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="246dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="132dp"
+        android:background="#F7DF0C"
+        android:text="SignIn"
+        android:textColor="#F807EC"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="301dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textColor="#FC0659" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="284dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="EmailAddress"
+        android:textColor="#23F00C" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="499dp"
+        app:srcCompat="@drawable/grey_50" />
+
+</RelativeLayout>
