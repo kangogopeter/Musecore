@@ -4,34 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".YoutubeActivity">
+    tools:context=".MainActivity">
 
 
-    <com.google.android.youtube.player.YouTubePlayerView
-        android:id="@+id/youtube_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:visibility="visible">
-
-        <EditText
-            android:id="@+id/seek_to_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/seek_to_hint"
-            android:inputType="number" />
-
-        <Button
-            android:id="@+id/seek_to_button"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="#EB296F"
-            android:text="@string/seek_to"
-            android:textColor="#DAB328" />
-
-    </LinearLayout>
 
 </LinearLayout>
