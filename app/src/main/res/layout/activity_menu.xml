@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="4dp" />
 
     <Button
-        android:id="@+id/findLoginButton"
+        android:id="@+id/findCreateAccountButton"
         android:layout_width="246dp"
         android:layout_height="76dp"
         android:layout_alignBottom="@+id/imageView"
@@ -37,7 +37,7 @@
         android:layout_marginRight="80dp"
         android:layout_marginBottom="393dp"
         android:background="#2FDBB3"
-        android:text="SignIn"
+        android:text="CreateAccount"
         android:textColor="#F00A53"
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="459dp" />
