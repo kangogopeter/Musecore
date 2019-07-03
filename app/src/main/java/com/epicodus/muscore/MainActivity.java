@@ -9,7 +9,11 @@ import android.widget.Button;
 
 import com.epicodus.muscore.ui.YoutubeActivity;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
 
     @BindView(R.id.registerTextView)
     Button mRegisterTextView;

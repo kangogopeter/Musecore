@@ -1,7 +1,5 @@
 package com.epicodus.muscore.ui;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,11 +8,12 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.epicodus.muscore.R;
+import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class YoutubeActivity extends AppCompatActivity implements YouTubePlayer.OnInitializedListener{
+public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener{
 
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
@@ -54,7 +53,7 @@ public class YoutubeActivity extends AppCompatActivity implements YouTubePlayer.
         player.setPlaybackEventListener(playbackEventListener);
 
         if (!wasRestored) {
-            player.cueVideo("fhWaJi1Hsfo"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo("LembwKDo1Dk"); // Plays https://www.youtube.com/watch?v=LembwKDo1Dk
         }
     }
 
@@ -63,7 +62,7 @@ public class YoutubeActivity extends AppCompatActivity implements YouTubePlayer.
         if (errorReason.isUserRecoverableError()) {
             errorReason.getErrorDialog(this, RECOVERY_REQUEST).show();
         } else {
-            String error = String.format(getString(R.string.player_error), errorReason.toString());
+            String error = String.format(getString(R.string.player_error));
             Toast.makeText(this, error, Toast.LENGTH_LONG).show();
         }
     }
@@ -89,19 +88,19 @@ public class YoutubeActivity extends AppCompatActivity implements YouTubePlayer.
         @Override
         public void onPlaying() {
             // Called when playback starts, either due to user action or call to play().
-            showMessage("Playing");
+            showMessage("Playing/Chezaring");
         }
 
         @Override
         public void onPaused() {
             // Called when playback is paused, either due to user action or call to pause().
-            showMessage("Paused");
+            showMessage("Paused So Bye");
         }
 
         @Override
         public void onStopped() {
             // Called when playback stops for a reason other than being paused.
-            showMessage("Stopped");
+            showMessage("Tuwatch CyberPunk Gaming");
         }
 
         @Override

@@ -7,13 +7,13 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/passwordLoginButton"
-        android:layout_width="match_parent"
+        android:id="@+id/registerTextView"
+        android:layout_width="152dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent"
         android:padding="10dp"
         android:text="View User On Youtube"
-        android:background="@color/colorAccent"
-        android:layout_marginTop="15dp"
         android:textColor="@color/colorPrimaryDark" />
 
 </LinearLayout>
