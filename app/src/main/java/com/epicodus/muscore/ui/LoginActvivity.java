@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import com.epicodus.muscore.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class LoginActvivity extends AppCompatActivity implements View.OnClickListener{
 
     @BindView(R.id.registerTextView)
@@ -28,7 +31,7 @@ public class LoginActvivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view){
         if(view == mRegisterTextView){
-            Intent intent = new Intent(LoginActivity.this, OptionActivity.class);
+            Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
             startActivity(intent);
             finish();
         }
