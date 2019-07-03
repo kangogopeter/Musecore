@@ -28,7 +28,7 @@ public class LoginActvivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view){
         if(view == mRegisterTextView){
-            Intent intent = new Intent(LoginActivity.this, CreateAccountActivity.class);
+            Intent intent = new Intent(LoginActivity.this, OptionActivity.class);
             startActivity(intent);
             finish();
         }
