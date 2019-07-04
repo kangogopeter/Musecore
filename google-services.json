@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1076675182247",
+    "firebase_url": "https://muscore-3f2a6.firebaseio.com",
+    "project_id": "muscore-3f2a6",
+    "storage_bucket": "muscore-3f2a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076675182247:android:69ca758b7d09f5cd",
+        "android_client_info": {
+          "package_name": "com.epicodus.muscore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076675182247-9fi5jv0m691dfv3v7ba4fflbdfnfdk66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epicodus.muscore",
+            "certificate_hash": "46e4b5fee7d6bf6f725f4be7c1d62e7e5c306467"
+          }
+        },
+        {
+          "client_id": "1076675182247-up5d5bv7q4m5bn92kkk4eo43eid1vmqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUmAdonz0M_uo-DRh555VBl1eM-pIK_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076675182247-up5d5bv7q4m5bn92kkk4eo43eid1vmqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
