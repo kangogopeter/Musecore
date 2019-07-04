@@ -237,74 +237,74 @@ public class MusiqActivity extends AppCompatActivity {
 
     }
 
-    public void sendMessage(View view){
-
-        EditText myEditText1 = findViewById(R.id.editTexta);
-        myDatabasea.setValue(myEditText1.getText().toString());
-        myEditTexta.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText2 = findViewById(R.id.editTextb);
-        myDatabaseb.setValue(myEditText2.getText().toString());
-        myEditTextb.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText3 = findViewById(R.id.editTextc);
-        myDatabasec.setValue(myEditText3.getText().toString());
-        myEditTextc.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText4 = findViewById(R.id.editTextd);
-        myDatabased.setValue(myEditText4.getText().toString());
-        myEditTextd.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText5 = findViewById(R.id.editTexte);
-        myDatabasee.setValue(myEditText5.getText().toString());
-        myEditTexte.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText6 = findViewById(R.id.editTextf);
-        myDatabasef.setValue(myEditText6.getText().toString());
-        myEditTextf.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText7 = findViewById(R.id.editTextg);
-        myDatabaseg.setValue(myEditText7.getText().toString());
-        myEditTextg.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText8 = findViewById(R.id.editTexth);
-        myDatabaseh.setValue(myEditText8.getText().toString());
-        myEditTexth.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText9 = findViewById(R.id.editTexti);
-        myDatabasei.setValue(myEditText9.getText().toString());
-        myEditTexti.setText("");
-    }
-
-    public void sendMessage(View view){
-
-        EditText myEditText10 = findViewById(R.id.editTextj);
-        myDatabasej.setValue(myEditText10.getText().toString());
-        myEditTextj.setText("");
-    }
+//    public void sendMessage(View view){
+//
+//        EditText myEditText1 = findViewById(R.id.editTexta);
+//        myDatabasea.setValue(myEditText1.getText().toString());
+//        myEditTexta.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText2 = findViewById(R.id.editTextb);
+//        myDatabaseb.setValue(myEditText2.getText().toString());
+//        myEditTextb.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText3 = findViewById(R.id.editTextc);
+//        myDatabasec.setValue(myEditText3.getText().toString());
+//        myEditTextc.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText4 = findViewById(R.id.editTextd);
+//        myDatabased.setValue(myEditText4.getText().toString());
+//        myEditTextd.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText5 = findViewById(R.id.editTexte);
+//        myDatabasee.setValue(myEditText5.getText().toString());
+//        myEditTexte.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText6 = findViewById(R.id.editTextf);
+//        myDatabasef.setValue(myEditText6.getText().toString());
+//        myEditTextf.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText7 = findViewById(R.id.editTextg);
+//        myDatabaseg.setValue(myEditText7.getText().toString());
+//        myEditTextg.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText8 = findViewById(R.id.editTexth);
+//        myDatabaseh.setValue(myEditText8.getText().toString());
+//        myEditTexth.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText9 = findViewById(R.id.editTexti);
+//        myDatabasei.setValue(myEditText9.getText().toString());
+//        myEditTexti.setText("");
+//    }
+//
+//    public void sendMessage(View view){
+//
+//        EditText myEditText10 = findViewById(R.id.editTextj);
+//        myDatabasej.setValue(myEditText10.getText().toString());
+//        myEditTextj.setText("");
+//    }
 
 }
