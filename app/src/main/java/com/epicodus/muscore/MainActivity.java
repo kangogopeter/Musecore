@@ -10,7 +10,10 @@ import android.widget.Button;
 
 import com.epicodus.muscore.ui.MyBounceInterpolator;
 
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
