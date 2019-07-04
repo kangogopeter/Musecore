@@ -30,9 +30,9 @@
         <activity android:name=".ui.LoginActvivity">
 
 
-            <!--<meta-data-->
-                <!--android:name="android.support.PARENT_ACTIVITY"-->
-                <!--android:value="com.epicodus.muscore.ui.MusiqActvivity"></meta-data>-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.muscore.ui.MusiqActivity"></meta-data>
 
 
         </activity>
@@ -45,6 +45,16 @@
 
 
         </activity>
+
+        <activity android:name=".ui.MusiqActivity">
+
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.epicodus.muscore."></meta-data>-->
+
+
+        </activity>
+
         <activity android:name=".MainActivity">
 
 
