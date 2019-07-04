@@ -16,6 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+
         <activity android:name=".MenuActivity">
 
 
@@ -32,6 +33,15 @@
             <!--<meta-data-->
                 <!--android:name="android.support.PARENT_ACTIVITY"-->
                 <!--android:value="com.epicodus.muscore.ui.MusiqActvivity"></meta-data>-->
+
+
+        </activity>
+
+        <activity android:name=".ui.CreateAccountActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.muscore.ui.LoginActvivity"></meta-data>
 
 
         </activity>
