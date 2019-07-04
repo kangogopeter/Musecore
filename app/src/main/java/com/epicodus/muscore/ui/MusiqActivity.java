@@ -1,12 +1,12 @@
 package com.epicodus.muscore.ui;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.epicodus.muscore.R;
 import com.google.firebase.database.DataSnapshot;
@@ -44,7 +44,7 @@ public class MusiqActivity extends AppCompatActivity {
         myDatabaseh = FirebaseDatabase.getInstance().getReference("Message8");
         myDatabasei = FirebaseDatabase.getInstance().getReference("Message9");
 
-        final TextView myTextl = findViewById(R.id.textViewJ);
+        final TextView myTextj = findViewById(R.id.textViewJ);
         final TextView myTexta = findViewById(R.id.textViewA);
         final TextView myTextb = findViewById(R.id.textViewB);
         final TextView myTextc = findViewById(R.id.textViewC);
@@ -56,19 +56,19 @@ public class MusiqActivity extends AppCompatActivity {
         final TextView myTexti = findViewById(R.id.textViewI);
 
 
-        //myDatabasej = Message0.... = myTextl....
+        //myDatabasej = Message0.... = myTextj....
         myDatabasej.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                myTextl.setText(dataSnapshot.getValue().toString());
+                myTextj.setText(dataSnapshot.getValue().toString());
 
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
-                myTextl.setText("CANCELLED");
+                myTextj.setText("CANCELLED");
 
             }
         });
