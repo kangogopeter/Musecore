@@ -9,7 +9,6 @@
 
 
 
-<<<<<<< HEAD
     <TextView
         android:id="@+id/tView"
         android:layout_width="wrap_content"
@@ -61,7 +60,6 @@
         android:background="#17E071"
         android:text="WELCOME"
         android:textColor="#6A11E6" />
-=======
->>>>>>> Home
+
 
 </RelativeLayout>

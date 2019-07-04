@@ -4,7 +4,6 @@
     package="com.epicodus.muscore">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <dist:module dist:instant="true" />
 
@@ -16,8 +15,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuActivity"></activity>
+
+        <activity android:name=".MenuActivity">
+
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.muscore.ui.LoginActvivity"></meta-data>
+
+
+        </activity>
+
+        <activity android:name=".ui.LoginActvivity">
+
+
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.epicodus.muscore.ui.MusiqActvivity"></meta-data>-->
+
+
+        </activity>
         <activity android:name=".MainActivity">
+
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.muscore.MenuActivity"></meta-data>
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
