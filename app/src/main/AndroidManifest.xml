@@ -5,7 +5,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <!--<uses-permission android:name="android.permission.WAKE_LOCK" />-->
 
 
@@ -19,6 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
 
 
 
@@ -66,12 +66,22 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" >
 
-            <!--<meta-data-->
-                <!--android:name="android.support.PARENT_ACTIVITY"-->
-                <!--android:value="com.epicodus."></meta-data>-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.muscore.ui.YoutubeActivity"></meta-data>
 
         </activity>
         <service android:name="com.epicodus.MusicService" />
+
+
+        <activity android:name=".ui.YoutubeActivity">
+
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.epicodus.muscore."></meta-data>-->
+
+
+        </activity>
 
         <activity android:name=".MainActivity">
 

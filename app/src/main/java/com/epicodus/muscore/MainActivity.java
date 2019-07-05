@@ -1,7 +1,17 @@
 package com.epicodus.muscore;
 
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import com.epicodus.muscore.ui.YoutubeActivity;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+
 
 import android.os.Handler;
 import android.view.View;
@@ -11,20 +21,21 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity{
+    public class MainActivity extends AppCompatActivity {
 
 
         private ProgressBar pgsBar;
         private int i = 0;
         private TextView txtView;
         private Handler hdlr = new Handler();
+
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
             pgsBar = (ProgressBar) findViewById(R.id.pBar);
             txtView = (TextView) findViewById(R.id.tView);
-            Button btn = (Button)findViewById(R.id.btnShow);
+            Button btn = (Button) findViewById(R.id.btnShow);
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -38,7 +49,7 @@ public class MainActivity extends AppCompatActivity{
                                 hdlr.post(new Runnable() {
                                     public void run() {
                                         pgsBar.setProgress(i);
-                                        txtView.setText(i+"/"+pgsBar.getMax());
+                                        txtView.setText(i + "/" + pgsBar.getMax());
                                     }
                                 });
                                 try {

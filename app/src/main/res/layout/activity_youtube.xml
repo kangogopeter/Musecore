@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.YoutubeActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/seek_to_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Pin Code"
+            android:inputType="number"
+            android:textColor="#DD93EE" />
+
+        <Button
+            android:id="@+id/seek_to_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#081686"
+            android:text="Send Message To Viewers"
+            android:textColor="#F0E509" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
