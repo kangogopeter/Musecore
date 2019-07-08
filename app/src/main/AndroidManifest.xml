@@ -20,7 +20,9 @@
         android:theme="@style/AppTheme">
 
 
-
+        <!--<meta-data-->
+            <!--android:name="asset_statements"-->
+            <!--android:resource="@string/asset_statements" />-->
 
         <activity android:name=".MenuActivity">
 
@@ -28,6 +30,17 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.muscore.ui.LoginActvivity"></meta-data>
+            <!--<intent-filter android:autoVerify="true">-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+
+                <!--<data-->
+                    <!--android:scheme="http"-->
+                    <!--android:host="www.Home-Part.com"-->
+                    <!--android:pathPattern="/home" />-->
+            <!--</intent-filter>-->
 
 
         </activity>
@@ -61,24 +74,26 @@
         </activity>
 
 
-        <activity android:name=".ui.SongsActivity"
+        <activity
+            android:name=".ui.SongsActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.muscore.ui.YoutubeActivity"></meta-data>
 
         </activity>
+
         <service android:name="com.epicodus.MusicService" />
 
 
         <activity android:name=".ui.YoutubeActivity">
 
             <!--<meta-data-->
-                <!--android:name="android.support.PARENT_ACTIVITY"-->
-                <!--android:value="com.epicodus.muscore."></meta-data>-->
+            <!--android:name="android.support.PARENT_ACTIVITY"-->
+            <!--android:value="com.epicodus.muscore."></meta-data>-->
 
 
         </activity>

@@ -54,6 +54,8 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
 
         if (!wasRestored) {
             player.cueVideo("LembwKDo1Dk"); // Plays https://www.youtube.com/watch?v=LembwKDo1Dk
+        }else{
+            player.cueVideo("LembwKDo1Dk",56);
         }
     }
 

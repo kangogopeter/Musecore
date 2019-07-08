@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="4dp" />
 
     <Button
-        android:id="@+id/findCreateAccountButton"
+        android:id="@+id/signinPart"
         android:layout_width="246dp"
         android:layout_height="76dp"
         android:layout_alignBottom="@+id/imageView"
@@ -43,7 +43,7 @@
         tools:layout_editor_absoluteY="459dp" />
 
     <Button
-        android:id="@+id/findSigninButton"
+        android:id="@+id/loginPart"
         android:layout_width="246dp"
         android:layout_height="76dp"
         android:layout_alignBottom="@+id/imageView"
@@ -61,13 +61,13 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="725dp"
-        android:layout_alignTop="@+id/imageView"
+        android:layout_height="778dp"
+        android:layout_alignTop="@+id/imageView4"
         android:layout_alignBottom="@+id/imageView"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="-55dp"
-        android:scaleType="matrix"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        android:background="@drawable/engine"
+        android:scaleType="matrix" />
 
     <ImageView
         android:id="@+id/imageView4"
