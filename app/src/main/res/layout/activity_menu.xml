@@ -37,7 +37,7 @@
         android:layout_marginRight="80dp"
         android:layout_marginBottom="393dp"
         android:background="#2FDBB3"
-        android:text="CreateAccount"
+        android:text="LOGIN"
         android:textColor="#F00A53"
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="459dp" />
@@ -53,7 +53,7 @@
         android:layout_marginRight="80dp"
         android:layout_marginBottom="177dp"
         android:background="#F7DF0C"
-        android:text="SignUp"
+        android:text="CreateAccount"
         android:textColor="#F807EC"
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="459dp" />

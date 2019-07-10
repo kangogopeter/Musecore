@@ -5,7 +5,19 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!--<uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+
+
 
 
     <dist:module dist:instant="true" />
@@ -84,9 +96,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.muscore.ui.YoutubeActivity"></meta-data>
 
+
         </activity>
 
-        <service android:name="com.epicodus.MusicService" />
+        <service android:name="com.epicodus.MusicService"/>
 
 
         <activity android:name=".ui.YoutubeActivity">

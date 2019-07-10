@@ -13,7 +13,9 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener{
+import butterknife.BindView;
+
+public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
@@ -21,12 +23,16 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
     private MyPlaybackEventListener playbackEventListener;
     private YouTubePlayer player;
 
-
+    @BindView(R.id.songsButton)
+    Button mSongsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youtube);
+
+       // mSongsButton.setOnClickListener((View.OnClickListener) this);
+
 
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
@@ -34,16 +40,29 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
         playerStateChangeListener = new MyPlayerStateChangeListener();
         playbackEventListener = new MyPlaybackEventListener();
 
-        final EditText seekToText = (EditText) findViewById(R.id.seek_to_text);
-        Button seekToButton = (Button) findViewById(R.id.seek_to_button);
+         final EditText seekToText = (EditText) findViewById(R.id.seek_to_text);
+        Button seekToButton = (Button) findViewById(R.id.songsButton);
         seekToButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int skipToSecs = Integer.valueOf(seekToText.getText().toString());
-                player.seekToMillis(skipToSecs * 1000);
+                if (v == mSongsButton) {
+                    Intent intent = new Intent(YoutubeActivity.this, SongsActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
             }
         });
-    }
+}
+
+//
+//    @Override
+//    public void onClick(View view) {
+//        if (view == mSongsButton) {
+//            Intent intent = new Intent(YoutubeActivity.this, SongsActivity.class);
+//            startActivity(intent);
+//            finish();
+//        }
+//    }
 
 
     @Override

@@ -1,36 +1,20 @@
 {
   "project_info": {
-<<<<<<< HEAD
-    "project_number": "548829805248",
-    "firebase_url": "https://endless-coder-243711.firebaseio.com",
-    "project_id": "endless-coder-243711",
-    "storage_bucket": "endless-coder-243711.appspot.com"
-=======
     "project_number": "1076675182247",
     "firebase_url": "https://muscore-3f2a6.firebaseio.com",
     "project_id": "muscore-3f2a6",
     "storage_bucket": "muscore-3f2a6.appspot.com"
->>>>>>> Musiq
   },
   "client": [
     {
       "client_info": {
-<<<<<<< HEAD
-        "mobilesdk_app_id": "1:548829805248:android:aebebe358b5b107f",
-        "android_client_info": {
-          "package_name": "com.codestar.Musecore"
-=======
         "mobilesdk_app_id": "1:1076675182247:android:69ca758b7d09f5cd",
         "android_client_info": {
           "package_name": "com.epicodus.muscore"
->>>>>>> Musiq
         }
       },
       "oauth_client": [
         {
-<<<<<<< HEAD
-          "client_id": "548829805248-voce40krkf22kvj0id9ni05l8304pnlj.apps.googleusercontent.com",
-=======
           "client_id": "1076675182247-9fi5jv0m691dfv3v7ba4fflbdfnfdk66.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -40,28 +24,19 @@
         },
         {
           "client_id": "1076675182247-up5d5bv7q4m5bn92kkk4eo43eid1vmqq.apps.googleusercontent.com",
->>>>>>> Musiq
           "client_type": 3
         }
       ],
       "api_key": [
         {
-<<<<<<< HEAD
-          "current_key": "AIzaSyCaT5EwfdY_VaETWuF46qYkcqOxQwaGZQo"
-=======
           "current_key": "AIzaSyAqUmAdonz0M_uo-DRh555VBl1eM-pIK_g"
->>>>>>> Musiq
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-<<<<<<< HEAD
-              "client_id": "548829805248-voce40krkf22kvj0id9ni05l8304pnlj.apps.googleusercontent.com",
-=======
               "client_id": "1076675182247-up5d5bv7q4m5bn92kkk4eo43eid1vmqq.apps.googleusercontent.com",
->>>>>>> Musiq
               "client_type": 3
             }
           ]

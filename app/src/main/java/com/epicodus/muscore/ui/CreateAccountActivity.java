@@ -59,9 +59,9 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
 
     public void createAuthProgressBar(){
         mAuthProgressBar = new ProgressBar(this);
-    //    mAuthProgressBar.setTitle("Loading...");
-  //      mAuthProgressBar.setMessage("Authenticating with Firebase...");
-//        mAuthProgressBar.setCancelable(false);
+       // mAuthProgressBar.setTitle("Loading...");
+     //   mAuthProgressBar.setMessage("Authenticating with Firebase...");
+      //  mAuthProgressBar.setCancelable(false);
     }
 
     @Override

@@ -24,7 +24,7 @@
             android:textColor="#DD93EE" />
 
         <Button
-            android:id="@+id/seek_to_button"
+            android:id="@+id/songsButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#081686"
