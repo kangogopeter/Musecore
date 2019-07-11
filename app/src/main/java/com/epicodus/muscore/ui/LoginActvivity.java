@@ -63,9 +63,10 @@ public class LoginActvivity extends AppCompatActivity implements View.OnClickLis
 
     private void createAuthProgressBar(){
         mAuthProgressBar = new ProgressBar(this);
-        //mAuthProgressBar.setTitle("Loading...");
-       // mAuthProgressBar.setMessage("Authenticating with Firebase...");
-        //mAuthProgressBar.setCancelable(false);
+        mAuthProgressBar.setTag("Loading...");
+        mAuthProgressBar.setTag("Authenticating with Firebase...");
+        mAuthProgressBar.setIndeterminate(false);
+       // mAuthProgressBar.show();
     }
 
     @Override

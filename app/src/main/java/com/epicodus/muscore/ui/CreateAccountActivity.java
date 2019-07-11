@@ -59,9 +59,9 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
 
     public void createAuthProgressBar(){
         mAuthProgressBar = new ProgressBar(this);
-       // mAuthProgressBar.setTitle("Loading...");
-     //   mAuthProgressBar.setMessage("Authenticating with Firebase...");
-      //  mAuthProgressBar.setCancelable(false);
+        mAuthProgressBar.setTag("Loading...");
+        mAuthProgressBar.setTag("Authenticating with Firebase...");
+        mAuthProgressBar.setIndeterminate(false);
     }
 
     @Override
@@ -92,7 +92,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-               // mAuthProgressBar.show();
+                mAuthProgressBar.showContextMenu();
 
                 if (task.isSuccessful()){
                     Log.d(TAG, "Authentication successful");
