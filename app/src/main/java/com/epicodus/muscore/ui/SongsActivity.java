@@ -65,7 +65,7 @@ public class SongsActivity extends AppCompatActivity {
     }
 
 
-    //unnecessarily part.....
+
 
 
 //    public static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 123;
@@ -136,6 +136,6 @@ public class SongsActivity extends AppCompatActivity {
 //                        grantResults);
 //        }
 //    }
-//ending part....
+
 
 }
